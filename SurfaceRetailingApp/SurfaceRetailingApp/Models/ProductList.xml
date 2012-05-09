@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfProducts  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <ProductName>HTC A9192 Inspire 4G</ProductName>
+    <Price>$298.98</Price>
+    <ImageUrl>Content/HTCA9192.jpg</ImageUrl>
+  </Product>
+  <Product>
+    <ProductName>HTC HD7</ProductName>
+    <Price>$265.00</Price>
+    <ImageUrl>Content/HTCHD7.jpg</ImageUrl>
+  </Product>
+  <Product>
+    <ProductName>Samsung Galaxy S II</ProductName>
+    <Price>$484.99</Price>
+    <ImageUrl>SamsungGalaxySII.jpg</ImageUrl>
+  </Product>
+  <Product>
+    <ProductName>Apple iPhone 4S</ProductName>
+    <Price>$579.99</Price>
+    <ImageUrl>iPhone4s.jpg</ImageUrl>
+  </Product>
+</ArrayOfProducts>

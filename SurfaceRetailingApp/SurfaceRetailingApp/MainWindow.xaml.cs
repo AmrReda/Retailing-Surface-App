@@ -15,25 +15,36 @@ using Microsoft.Surface;
 using Microsoft.Surface.Presentation;
 using Microsoft.Surface.Presentation.Controls;
 using Microsoft.Surface.Presentation.Input;
+using SurfaceRetailingApp.Models;
 
 namespace SurfaceRetailingApp
 {
     /// <summary>
-    /// Interaction logic for SurfaceWindow1.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class SurfaceWindow1 : SurfaceWindow
+    public partial class MainWindow : SurfaceWindow
     {
         /// <summary>
         /// Default constructor.
         /// </summary>
-        public SurfaceWindow1()
+        public MainWindow()
         {
             InitializeComponent();
+            AppState.Instance.Load();
+            
 
             // Add handlers for window availability events
             AddWindowAvailabilityHandlers();
+
+            
         }
 
+
+
+        
+
+
+        #region SurfaceWindow Handlers
         /// <summary>
         /// Occurs when the window is about to close. 
         /// </summary>
@@ -98,6 +109,10 @@ namespace SurfaceRetailingApp
         private void OnWindowUnavailable(object sender, EventArgs e)
         {
             //TODO: disable audio, animations here
-        }
+        } 
+        #endregion
+
+
+
     }
 }

@@ -8,6 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/productlist.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/content/htca9192.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/content/htchd7.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/content/samsunggalaxysii.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/content/iphone4s.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/icon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("surfaceretailingapp.xml")]
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-K:\Retailing-Surface-App\SurfaceRetailingApp\SurfaceRetailingApp\obj\Debug\
+K:\MyProjects\@GitHub\Retailing-Surface-App\SurfaceRetailingApp\SurfaceRetailingApp\obj\Debug\
 SurfaceRetailingApp
 none
 false
 DEBUG;TRACE
-K:\Retailing-Surface-App\SurfaceRetailingApp\SurfaceRetailingApp\App.xaml
-1-2107844449
-22096500817
-6-1248737
+K:\MyProjects\@GitHub\Retailing-Surface-App\SurfaceRetailingApp\SurfaceRetailingApp\App.xaml
+4-384760925
+7-2086704865
+11-1210253648
 152103913890
-SurfaceWindow1.xaml;
+Controls\River.xaml;Controls\RiverContent\LargeItemPreview.xaml;Controls\RiverContent\SmallItemPreview.xaml;MainWindow.xaml;
 
 False
 
