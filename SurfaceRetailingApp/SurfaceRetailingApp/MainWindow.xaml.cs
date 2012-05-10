@@ -30,7 +30,8 @@ namespace SurfaceRetailingApp
         public MainWindow()
         {
             InitializeComponent();
-            AppState.Instance.Load();
+            
+            AppState.Instance.Initialize(_river);
             
 
             // Add handlers for window availability events
